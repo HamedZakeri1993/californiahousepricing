@@ -11,6 +11,5 @@
 Create a new enviorment 
 '''
 conda create -p venv python=3.10 -y 
-# Changed the == to = without a space 
-# Error for the fat that my path name End to End Projects has a space in its name and this space can be problematic
+conda create --name myenv python=3.10 -y
 '''
