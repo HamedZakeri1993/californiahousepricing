@@ -26,7 +26,7 @@ def predict_api():
     new_data = scalar.transform(np.array(list(data.values())).reshape(1, -1))
     output = regmodel.predict(new_data)
     print(output[0])
-    return jasonify(output[0])
+    return jsonify(output[0])
 
 
 if __name__ == "__main__":
